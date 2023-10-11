@@ -16,7 +16,7 @@
   \********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/MovieLogo.png */ \"./src/images/MovieLogo.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@0,300;1,300;0,500;1,500;0,800;1,800&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\r\n  background-color: darkash;\r\n}\r\n\r\n.div-li {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n#logo {\r\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\r\n  border: 4px solid hsl(0, 87%, 34%);\r\n  border-radius: 6%;\r\n  width: 70px;\r\n  height: 70px;\r\n  margin-top: -17px;\r\n  margin-right: 42rem;\r\n  -webkit-border-radius: 5%;\r\n  -moz-border-radius: 5%;\r\n  -ms-border-radius: 5%;\r\n  -o-border-radius: 5%;\r\n}\r\n\r\n#logo:hover {\r\n  box-shadow: 0 7px 8px 0 rgba(63, 61, 61, 0.2), 0 7px 20px 0 rgba(43, 41, 41, 0.19);\r\n  transform: scale(2);\r\n  transition: 0.5s;\r\n  -webkit-transform: scale(2);\r\n  -moz-transform: scale(2);\r\n  -ms-transform: scale(2);\r\n  -o-transform: scale(2);\r\n}\r\n\r\n.nav {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  padding-right: 2rem;\r\n  padding-left: 2rem;\r\n  height: 100px;\r\n  background-color: #000;\r\n  color: #fff;\r\n  margin-bottom: 20px;\r\n}\r\n\r\nul {\r\n  list-style: none;\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 5rem;\r\n  flex-wrap: wrap;\r\n}\r\n\r\nnav ul {\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n  margin-top: 2rem;\r\n}\r\n\r\nli > a {\r\n  color: #fff;\r\n  list-style: none;\r\n  font-size: 24px;\r\n  text-decoration: none;\r\n}\r\n\r\nli > a:hover {\r\n  color: hsl(0, 99%, 32%);\r\n}\r\n\r\n \r\n\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://javascript-capstone-project/./src/styles/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@0,300;1,300;0,500;1,500;0,800;1,800&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n.div-logo {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n  \r\na {\r\n  text-decoration: none;\r\n  color: #fff;\r\n}\r\n  \r\nhtml body {\r\n  height: 100%;\r\n}\r\n  \r\n#logo {\r\n  /* background-image: url('../images/logo.png'); */\r\n  border: 4px solid hsl(0, 58%, 31%);\r\n  border-radius: 7%;\r\n  width: 40%;\r\n  height: 30%;\r\n}\r\n  \r\n#logo:hover {\r\n  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n  transform: scale(2);\r\n  transition: 0.5s;\r\n  -webkit-transform: scale(2);\r\n  -moz-transform: scale(2);\r\n  -ms-transform: scale(2);\r\n  -o-transform: scale(2);\r\n}\r\n  \r\n.nav {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding-right: 2rem;\r\n  padding-left: 2rem;\r\n  height: 100px;\r\n  background-color: #000;\r\n  color: #fff;\r\n  margin-bottom: 20px;\r\n}\r\nul {\r\n  list-style: none;\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 5rem;\r\n  flex-wrap: wrap;\r\n}\r\n  \r\n/* nav ul {\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n  margin-top: 2rem;\r\n} */\r\n  \r\nli > a {\r\n  color: #fff;\r\n  list-style: none;\r\n  font-size: 24px;\r\n  text-decoration: none;\r\n}\r\n\r\nli > a:hover {\r\n  color: hsl(0, 100%, 30%);\r\n}\r\n  \r\nfooter {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  padding-right: 2rem;\r\n  padding-left: 2rem;\r\n  height: 100px;\r\n  background-color: #000;\r\n  color: #fff;\r\n  position: fixed;\r\n  bottom: 0;\r\n  width: 100%;\r\n}\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://javascript-capstone-project/./src/styles/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -30,16 +30,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://javascript-capstone-project/./node_modules/css-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -47,6 +37,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://javascript-capstone-project/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/images/MovieLogo-1.png":
+/*!************************************!*\
+  !*** ./src/images/MovieLogo-1.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/MovieLogo-1.png\");\n\n//# sourceURL=webpack://javascript-capstone-project/./src/images/MovieLogo-1.png?");
 
 /***/ }),
 
@@ -126,17 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.css */ \"./src/styles/index.css\");\n\r\nconsole.log(123);\n\n//# sourceURL=webpack://javascript-capstone-project/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/images/MovieLogo.png":
-/*!**********************************!*\
-  !*** ./src/images/MovieLogo.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"970f063b0de84a98b1f3.png\";\n\n//# sourceURL=webpack://javascript-capstone-project/./src/images/MovieLogo.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.css */ \"./src/styles/index.css\");\n/* harmony import */ var _images_MovieLogo_1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/MovieLogo-1.png */ \"./src/images/MovieLogo-1.png\");\n\n\n\n//# sourceURL=webpack://javascript-capstone-project/./src/index.js?");
 
 /***/ })
 
@@ -165,9 +155,6 @@ eval("module.exports = __webpack_require__.p + \"970f063b0de84a98b1f3.png\";\n\n
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -243,32 +230,6 @@ eval("module.exports = __webpack_require__.p + \"970f063b0de84a98b1f3.png\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"bundle": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
