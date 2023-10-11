@@ -5,20 +5,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .div-logo {
   display: flex;
   flex-direction: column;
 }
-  
+
 a {
   text-decoration: none;
   color: #fff;
 }
-  
+
 html body {
   height: 100%;
 }
-  
+
 #logo {
   /* background-image: url('../images/logo.png'); */
   border: 4px solid hsl(0, 58%, 31%);
@@ -26,7 +27,7 @@ html body {
   width: 40%;
   height: 30%;
 }
-  
+
 #logo:hover {
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(2);
@@ -36,7 +37,7 @@ html body {
   -ms-transform: scale(2);
   -o-transform: scale(2);
 }
-  
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -48,6 +49,7 @@ html body {
   color: #fff;
   margin-bottom: 20px;
 }
+
 ul {
   list-style: none;
   display: flex;
@@ -55,13 +57,13 @@ ul {
   gap: 5rem;
   flex-wrap: wrap;
 }
-  
+
 /* nav ul {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 2rem;
 } */
-  
+
 li > a {
   color: #fff;
   list-style: none;
@@ -72,7 +74,7 @@ li > a {
 li > a:hover {
   color: hsl(0, 100%, 30%);
 }
-  
+
 footer {
   display: flex;
   justify-content: flex-end;
