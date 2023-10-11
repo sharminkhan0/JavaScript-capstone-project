@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@0,300;1,300;0,500;1,500;0,800;1,800&display=swap');
 
-body {
-  background-color: darkash;
-}
-
 .div-li {
   display: flex;
   flex-direction: column;
@@ -68,6 +64,3 @@ li > a {
 li > a:hover {
   color: hsl(0, 99%, 32%);
 }
-
- 
-
