@@ -6,6 +6,7 @@ import displayMovies from './modules/displayMovies.js';
 import getMovies from './modules/api.js';
 import { getLikes } from './modules/showLikes.js';
 import addLikes from './modules/addLikes.js';
+
 const addEvents = () => {
   const likeIcons = document.querySelectorAll('.fa-heart');
   likeIcons.forEach((likeIcon) => {
