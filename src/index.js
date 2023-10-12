@@ -5,21 +5,21 @@ import displayMovies from './modules/displayMovies.js';
 import getMovies from './modules/api.js';
 
 const displayAllMovies = async () => {
-    const display = await getMovies();
-    displayMovies(display);
-  };
-  window.addEventListener('load', displayAllMovies);
-  const shows = await getMovies();
-  const arr = Array.from(shows);
-  const parentElem = document.getElementById('liContainer');
-  parentElem.addEventListener('click', (event) => {
-    const matcher = event.target.matches('.btn');
-    const eventElem = event.target;
-    const eventId = eventElem.id - 1;
-    if (matcher) {
-      const newDiv = document.createElement('div');
-      newDiv.className = 'mainContainer';
-      newDiv.innerHTML = `
+  const display = await getMovies();
+  displayMovies(display);
+};
+window.addEventListener('load', displayAllMovies);
+const shows = await getMovies();
+const arr = Array.from(shows);
+const parentElem = document.getElementById('liContainer');
+parentElem.addEventListener('click', (event) => {
+  const matcher = event.target.matches('.btn');
+  const eventElem = event.target;
+  const eventId = eventElem.id - 1;
+  if (matcher) {
+    const newDiv = document.createElement('div');
+    newDiv.className = 'mainContainer';
+    newDiv.innerHTML = `
       <div class="mainContainer1">
       
       <div class="movieDetails flex">
@@ -57,16 +57,16 @@ const displayAllMovies = async () => {
       </div>
   </div>
       `;
-      document.body.appendChild(newDiv);
+    document.body.appendChild(newDiv);
+  }
+});
+const bodyHtml = document.getElementById('liContainer');
+const parent = bodyHtml.parentElement.parentElement;
+parent.addEventListener('click', (event) => {
+  if (event.target.matches('#closeImg')) {
+    const lastCh = parent.lastChild;
+    if (lastCh) {
+      document.body.removeChild(lastCh);
     }
-  });
-  const bodyHtml = document.getElementById('liContainer');
-  const parent = bodyHtml.parentElement.parentElement;
-  parent.addEventListener('click', (event) => {
-    if (event.target.matches('#closeImg')) {
-      const lastCh = parent.lastChild;
-      if (lastCh) {
-        document.body.removeChild(lastCh);
-      }
-    }
-  });
+  }
+});
