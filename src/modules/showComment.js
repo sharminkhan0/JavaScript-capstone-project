@@ -1,4 +1,4 @@
-import getComments from './getcomments.js';
+import getComments from './getComments.js';
 
 const showComment = async (appId, index) => {
   const comments = await getComments(appId, index);
