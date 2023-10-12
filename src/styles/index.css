@@ -156,14 +156,14 @@ footer p {
 }
 
 .imgDiv {
- height: 295px;
- width: 210px;
- background-color: #fff;
+  height: 295px;
+  width: 210px;
+  background-color: #fff;
 }
 
 .imgDiv > img {
- height: 295px;
- width: 210px;
+  height: 295px;
+  width: 210px;
 }
 
 .mainContainer {
@@ -178,7 +178,7 @@ footer p {
   height: 100vh;
   background-color: #ffffff92;
   overflow: scroll;
-  z-index: 9999;;
+  z-index: 9999;
 }
 
 .mainContainer1 {
@@ -186,12 +186,14 @@ footer p {
   width: 80%;
   top: 20px;
   border: 2px solid blue;
+
   /* overflow-y: scroll; */
 }
 
 .liContainer {
   position: absolute;
-  /*background-color: #fff;*/
+
+  /* background-color: #fff; */
 }
 
 .movieInfo {
@@ -205,7 +207,6 @@ footer p {
   align-items: start;
   margin: 10px;
   background-color: #fff;
-
 }
 
 .otherInfo > span {
