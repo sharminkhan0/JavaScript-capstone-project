@@ -8,27 +8,24 @@ const displayAllMovies = async () => {
     const display = await getMovies();
     displayMovies(display);
   };
-  
   window.addEventListener('load', displayAllMovies);
-  
   const shows = await getMovies();
   const arr = Array.from(shows);
-  
   const parentElem = document.getElementById('liContainer');
   parentElem.addEventListener('click', (event) => {
     const matcher = event.target.matches('.btn');
     const eventElem = event.target;
     const eventId = eventElem.id - 1;
-  
     if (matcher) {
       const newDiv = document.createElement('div');
       newDiv.className = 'mainContainer';
       newDiv.innerHTML = `
       <div class="mainContainer1">
+      
+      <div class="movieDetails flex">
       <div class="closeBtd flex">
           <img id="closeImg" src="./images/close_icon.png" alt="main image">
       </div>
-      <div class="movieDetails flex">
           <div class="imgDiv">
              <img src="${arr[eventId].image.medium}">
           </div>
@@ -39,7 +36,7 @@ const displayAllMovies = async () => {
                   <span>Genres : ${arr[eventId].genres}</span>
               </div>
               <div class="otherInfo flex">
-                  <span>Episode Length : ${arr[eventId].averageRuntim}</span>
+                  <span>Episode Length : ${arr[eventId].averageRuntime}</span>
                   <span>Rating : ${arr[eventId].rating.average}</span>
               </div>
           </div>
@@ -63,10 +60,8 @@ const displayAllMovies = async () => {
       document.body.appendChild(newDiv);
     }
   });
-  
   const bodyHtml = document.getElementById('liContainer');
   const parent = bodyHtml.parentElement.parentElement;
-  
   parent.addEventListener('click', (event) => {
     if (event.target.matches('#closeImg')) {
       const lastCh = parent.lastChild;
