@@ -65,7 +65,7 @@ parentElem.addEventListener('click', (event) => {
         <div class="comments flex">
             <h3>Comments</h3>
             <div class="commentsDisplay flex">
-                <span>Nahid : Love this movie</span>
+                <span>Sharmin : Love this movie</span>
             </div>
         </div>
         <div class="addComment flex">
