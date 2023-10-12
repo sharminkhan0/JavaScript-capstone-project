@@ -7,6 +7,14 @@
   background-color: #000;
 }
 
+h1,
+h2,
+h3,
+span,
+button {
+  background-color: #fff;
+}
+
 .div-logo {
   display: flex;
   flex-direction: column;
@@ -153,7 +161,7 @@ footer p {
  background-color: #fff;
 }
 
-.imgDiv> img {
+.imgDiv > img {
  height: 295px;
  width: 210px;
 }
@@ -167,27 +175,28 @@ footer p {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #ffffff92;
+  overflow: scroll;
   z-index: 9999;;
 }
 
 .mainContainer1 {
   background: #fff;
-  width: 60%;
-  height: 100vh;
+  width: 80%;
+  height: 100%;
   border: 2px solid blue;
   /* overflow-y: scroll; */
 }
 
 .liContainer {
   position: absolute;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .movieInfo {
   flex-direction: row;
-  position: absolute;
+  width: 100%;
   background-color: #fff;
 }
 
@@ -199,7 +208,7 @@ footer p {
 
 }
 
-.otherInfo> span {
+.otherInfo > span {
   padding: 10px;
   background-color: #fff;
 }
