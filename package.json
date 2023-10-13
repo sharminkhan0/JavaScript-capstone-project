@@ -82,6 +82,7 @@
     "autoprefixer": "^9.8.8",
     "available-typed-arrays": "^1.0.5",
     "axe-core": "^4.8.2",
+    "axios": "^1.5.1",
     "babel-plugin-istanbul": "^6.1.1",
     "babel-plugin-jest-hoist": "^29.6.3",
     "babel-preset-current-node-syntax": "^1.0.1",
