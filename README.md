@@ -1,35 +1,15 @@
 <a name="readme-top"></a>
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
+<div align="center">
 
-You should modify this file to match your project and remove sections that don't apply.
+  <br/>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+  <h3><b>Awesome Movies README</b></h3>
 
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
+</div>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  
   <img src="sharmin-khan-logo-1.png" alt="logo" width="280"  height="auto"  />
   <br/>
 
@@ -63,18 +43,15 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  <a name="about-project"></a>
+# 📖 Awesome Movies <a name="about-project"></a>
 
 
-This is..........
+Welcome to our open-source website repository on GitHub! this website utilizes APIs to provide an interactive platform for visitors to engage with the content and share their thoughts.
 
 
 <img src="./resources/images/by6n.png" alt="cover" />
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -87,13 +64,30 @@ This is..........
     <li><a href="https://js.com/">JAVASCRIPT</a></li>
   </ul>
 </details>
+### Tech Stack <a name="tech-stack"></a>
+
+> The key technologies and frameworks we utilize includes
+> Front-end Development:
+- **HTML5:** Provides the structure and markup of the website.
+- **CSS3:** Styles the website, ensuring an attractive and responsive design.
+- **JavaScript:** Enables dynamic and interactive elements on the client-side.
+
+> Back-end Development:
+- **Node.js:** A runtime environment for executing JavaScript code on the server-side, enabling server-side scripting and handling of requests.
+
+> **API Integration:**
+> **Version Control and Deployment:**
+- **Git:** A distributed version control system for tracking changes in the codebase and facilitating collaboration among developers.
+- **GitHub:** We host our code repository on GitHub, enabling open-source collaboration, issue tracking, and pull request management.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Demo of Linters
-- Demo of todolist
+> Key Features of this Website
+- **Commenting System:** Our website provides a commenting system that allows visitors to share their thoughts, provide feedback, and engage in discussions. Users can easily write and post comments on various sections of the website, fostering an interactive and collaborative environment.
+
+- **Like System:** We have implemented a like system that enables users to express their appreciation for specific content. Visitors can simply click on the like button associated with an item, such as a post, image, or video, to indicate their approval or enjoyment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,11 +109,13 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- web browser
-- git-syn
-- code editor
+**Node.js:** Ensure that Node.js is installed on your machine. You can download the latest version from the official Node.js website and follow the installation instructions.
+
+**webpack:** Ensure that webpack is installed on your machine. You can install from the guideline in the official website of webpack
 
 ### Setup
+
+**API Integration:** If our website relies on external APIs, make sure you have the required API keys or credentials. Update the relevant API configuration files or environment variables.
 
 Clone this repository to your desired folder:
 
@@ -137,46 +133,32 @@ npm install
 
 ### Usage
 
-To run the project, execute the following command:
-
-To run the project, follow these instructions:
-
-- Clone this repo to your local machine.
+**Development Mode:** To run the website in development mode, use the command "npm run dev". This will start the development server and enable hot-reloading, allowing you to view changes instantly as you edit the code.
+**Production Build:** When you are ready to build the production-ready version of the website, run the command "npm run build". This will generate the optimized and minified assets in the dist or build directory.
+**Start the Server:** To start the production server and serve the built assets, use the command "npm start"..
 
 ### Run tests
 
-To run tests, run the following command:
+**Testing Framework:** If our project includes tests, make sure you have the necessary testing framework (e.g., Jest) installed globally or as a project dependency.
+**Test Execution:** Use the command "npm test" to run the tests and verify the functionality of the website. The test results will be displayed in the terminal.
 
-- Track HTML linter errors run:
-```
-npx hint .
-```
-- Track CSS linter errors run:
-```
-npx stylelint "**/*.{css,scss}"
-```
-- Track JavaScript linter errors run:
-```
-npx eslint .
-```
-### Build
+You can also use the following command.
 
-To build, run the following:
+```sh
+  npm install --save-dev jest
+  npm install --save-dev @babel/plugin-transform-modules-commonjs
+  npm install --save-dev jest-environment-jsdom
+  npm install jquery
+  npm install --save-dev identity-obj-proxy
+  npm test
 ```
-npm run build
-```
-
-### webpack development server
-
- Run the following:
- ```
- npm start
- ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Deployment
 
-You can deploy your project using github free source.
+**Hosting Platform:** Choose a hosting platform that suits your needs (e.g., Heroku, AWS, Netlify).
+**Deployment Configuration:** Set up the deployment configuration, such as configuring the server, environment variables, and build commands.
+**Deployment Process:** Follow the hosting platform's documentation to deploy your website. This may involve connecting the repository, specifying the deployment branch, and triggering the deployment process.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -197,10 +179,9 @@ You can deploy your project using github free source.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] Mobile Version
-- [ ] Add Model
+> This website will contain more animations in the future, providing a fully responsive design for optimal user experience.
+- [ ] **Animated Logo**
+- [ ] **Animated Buttons**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -235,7 +216,9 @@ As well as Freecodecamp and w3school for their useful articles that assisted me 
 
 <!-- FAQ (optional) -->
 
+- **How to build this website?**
 
+  - Follow the steps in this link https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/js_capstone.md
 
 <!-- LICENSE -->
 
