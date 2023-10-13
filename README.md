@@ -121,7 +121,7 @@ Clone this repository to your desired folder:
 
 Example commands:
 
-git clone git@github.com:https://github.comsharminkhan0/.git
+git clone git@github.com:https://github.comsharminkhan0/JavaScript-capstone-project.git
 
 
 ### Install
