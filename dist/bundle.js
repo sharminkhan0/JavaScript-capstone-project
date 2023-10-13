@@ -181,7 +181,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getMovie = async (Id) => {\n  const response = await fetch(`https://api.tvmaze.com/shows/${Id}`);\n\n  if (response.status === 200) {\n    const data = await response.json();\n    return data;\n  }\n\n  throw new Error(`Request failed with status code ${response.status}`);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getMovie);\n\n//# sourceURL=webpack://javascript-capstone-project/./src/modules/getMovies.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// eslint-disable-next-line consistent-return\nconst getMovie = async (Id) => {\n  const response = await fetch(`https://api.tvmaze.com/shows/${Id}`);\n\n  if (response.status === 200) {\n    const data = await response.json();\n    return data;\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getMovie);\n\n//# sourceURL=webpack://javascript-capstone-project/./src/modules/getMovies.js?");
 
 /***/ }),
 
